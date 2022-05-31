@@ -8,11 +8,68 @@
 </head>
 <body>
 
+    <header>
+
     <h1>
         Figuras Geometricas
     </h1>
+    <p>
+        Primer taller del curso
+    </p>
+   
+    </header>
+
+    <section>
+        <h2>Calcular el perimetro del cuadrado</h2>
+        <form>
+            <label for="inputC">
+                Escribe el lado del cuadrado:
+            </label>
+
+            <input id="inputC" type="number">
+
+            <button type="button" onclick="calcularPerimetroC()">
+
+                Calcular Perimetro
+
+            </button>
+
+            <button type="button" onclick="calcularAreaC()">
+                Calcular Area
+            </button>
+        </form>
+
+    </section>
+    section>
+        <h2>Calcular el perimetro del Triangulo</h2>
+        <form>
+            <label for="inputTb">
+                Escribe la base del Triangulo:
+            </label>
+
+            <input id="inputTb" type="number">
+
+            <label for="inputTa">
+                Escribe la altura del Triangulo:
+            </label>
+            <input id="inputTa" type="number">
+
+            <button type="button" onclick="calcularPerimetroT()">
+
+                Calcular Perimetro
+
+            </button>
+
+            <button type="button" onclick="calcularAreaT()">
+                Calcular Area
+            </button>
+        </form>
+
+    </section>
+
 
     <script src="/figuras.js"></script>
+
     
 </body>
 </html>

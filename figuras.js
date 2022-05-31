@@ -83,3 +83,52 @@ console.groupEnd();
 console.groupEnd();
 
 
+// Conexion con Html
+
+function calcularPerimetroC(){
+
+    const input =document.getElementById("inputC");
+    const value = input.value;
+    
+    const perimetro = perimetroC(value);
+    alert(perimetro);
+    
+
+}
+
+function calcularAreaC(){
+
+    const input =document.getElementById("inputC");
+    const value = input.value;
+    
+    const area = areaC(value);
+    alert(area);
+    
+
+}
+
+function calcularPerimetroT(){
+
+    const inputB =document.getElementById("inputTb");
+    const inputA =document.getElementById("inputTa");
+    const valueB = inputB.value;
+    const valueA = inputA.value;
+    
+    const perimetro = perimetroT(valueB, valueA);
+    alert(perimetro);
+    
+
+}
+
+function calcularAreaT(){
+
+    const inputB =document.getElementById("inputTb");
+    const inputA =document.getElementById("inputTa");
+    const valueB = inputB.value;
+    const valueA = inputA.value;
+    
+    const area = areaT(valueB, valueA);
+    alert(area);
+    
+
+}
